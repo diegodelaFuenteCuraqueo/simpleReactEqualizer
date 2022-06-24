@@ -20,8 +20,8 @@ function SliderComponent(props) {
   }
 
   return (
-      <div className="col-1" 
-        style={{paddingLeft:0, paddingRight:0, maxWidth: "4%"}}>
+      <div className="col-2" 
+        style={{paddingLeft:0, paddingRight:0, maxWidth: "6%"}}>
         <label style={style} 
           className="hzLabel">{props.hz}<br/>hz</label><br/>
         <input ref={inputEl} 
